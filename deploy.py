@@ -1,7 +1,7 @@
 # Install transformers library.
-!pip install -q git+https://github.com/huggingface/transformers.git
+pip install -q git+https://github.com/huggingface/transformers.git
 # Install helper functions.
-!pip install -q git+https://github.com/gmihaila/ml_things.git
+pip install -q git+https://github.com/gmihaila/ml_things.git
 
 pip install transformers
 import io
