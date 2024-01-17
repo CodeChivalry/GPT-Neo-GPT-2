@@ -1,15 +1,9 @@
 
-!pip install -q git+https://github.com/huggingface/transformers.git
 
- 
-!pip install -q git+https://github.com/gmihaila/ml_things.git
 
- 
-!pip install transformers
-
-import io
-import os
-import torch
+from transformers import io
+from transformers import os
+from transformers import torch
 from tqdm.notebook import tqdm
 from torch.utils.data import Dataset, DataLoader
 from ml_things import plot_dict, plot_confusion_matrix, fix_text
