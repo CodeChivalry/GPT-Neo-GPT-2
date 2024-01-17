@@ -1,3 +1,12 @@
+
+!pip install -q git+https://github.com/huggingface/transformers.git
+
+ 
+!pip install -q git+https://github.com/gmihaila/ml_things.git
+
+ 
+!pip install transformers
+
 import io
 import os
 import torch
